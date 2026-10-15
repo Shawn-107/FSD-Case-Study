@@ -1,0 +1,365 @@
+{
+  "presetCities": [
+    {
+      "name": "Bengaluru, India",
+      "lat": 12.9716,
+      "lon": 77.5946
+    },
+    {
+      "name": "Hyderabad, India",
+      "lat": 17.385,
+      "lon": 78.4867
+    },
+    {
+      "name": "Chennai, India",
+      "lat": 13.0827,
+      "lon": 80.2707
+    },
+    {
+      "name": "Mumbai, India",
+      "lat": 19.076,
+      "lon": 72.8777
+    },
+    {
+      "name": "Paris, France",
+      "lat": 48.8566,
+      "lon": 2.3522
+    },
+    {
+      "name": "Rome, Italy",
+      "lat": 41.9028,
+      "lon": 12.4964
+    },
+    {
+      "name": "London, United Kingdom",
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    {
+      "name": "New York, United States",
+      "lat": 40.7128,
+      "lon": -74.006
+    }
+  ],
+  "demoQueries": [
+    {
+      "label": "Churches near me",
+      "query": "church",
+      "city": "Bengaluru, India"
+    },
+    {
+      "label": "Forum Mall",
+      "query": "forum mall",
+      "city": "Bengaluru, India"
+    },
+    {
+      "label": "Eiffel Tower",
+      "query": "eiffel towr",
+      "city": "Paris, France"
+    },
+    {
+      "label": "Pharmacies",
+      "query": "pharmacy",
+      "city": "Hyderabad, India"
+    }
+  ],
+  "requestTimeoutMs": 10000,
+  "autocompleteDebounceMs": 300,
+  "searchLimit": 40,
+  "suggestionLimit": 8,
+  "categories": [
+    {
+      "label": "Churches",
+      "singular": "Church",
+      "terms": [
+        "church",
+        "churches"
+      ],
+      "selectors": [
+        {
+          "amenity": "place_of_worship",
+          "religion": "christian"
+        },
+        {
+          "building": "church"
+        }
+      ]
+    },
+    {
+      "label": "Mosques",
+      "singular": "Mosque",
+      "terms": [
+        "mosque",
+        "mosques"
+      ],
+      "selectors": [
+        {
+          "amenity": "place_of_worship",
+          "religion": "muslim"
+        }
+      ]
+    },
+    {
+      "label": "Temples",
+      "singular": "Temple",
+      "terms": [
+        "temple",
+        "temples"
+      ],
+      "selectors": [
+        {
+          "amenity": "place_of_worship",
+          "religion": "hindu"
+        }
+      ]
+    },
+    {
+      "label": "Pharmacies",
+      "singular": "Pharmacy",
+      "terms": [
+        "pharmacy",
+        "pharmacies",
+        "chemist"
+      ],
+      "selectors": [
+        {
+          "amenity": "pharmacy"
+        }
+      ]
+    },
+    {
+      "label": "Hospitals",
+      "singular": "Hospital",
+      "terms": [
+        "hospital",
+        "hospitals"
+      ],
+      "selectors": [
+        {
+          "amenity": "hospital"
+        }
+      ]
+    },
+    {
+      "label": "Cafes",
+      "singular": "Cafe",
+      "terms": [
+        "cafe",
+        "cafes",
+        "coffee shop",
+        "coffee shops"
+      ],
+      "selectors": [
+        {
+          "amenity": "cafe"
+        }
+      ]
+    },
+    {
+      "label": "Restaurants",
+      "singular": "Restaurant",
+      "terms": [
+        "restaurant",
+        "restaurants"
+      ],
+      "selectors": [
+        {
+          "amenity": "restaurant"
+        }
+      ]
+    },
+    {
+      "label": "ATMs",
+      "singular": "ATM",
+      "terms": [
+        "atm",
+        "atms"
+      ],
+      "selectors": [
+        {
+          "amenity": "atm"
+        }
+      ]
+    },
+    {
+      "label": "Bus stops",
+      "singular": "Bus stop",
+      "terms": [
+        "bus stop",
+        "bus stops"
+      ],
+      "selectors": [
+        {
+          "highway": "bus_stop"
+        }
+      ]
+    },
+    {
+      "label": "Schools",
+      "singular": "School",
+      "terms": [
+        "school",
+        "schools"
+      ],
+      "selectors": [
+        {
+          "amenity": "school"
+        }
+      ]
+    },
+    {
+      "label": "Libraries",
+      "singular": "Library",
+      "terms": [
+        "library",
+        "libraries"
+      ],
+      "selectors": [
+        {
+          "amenity": "library"
+        }
+      ]
+    },
+    {
+      "label": "Parks",
+      "singular": "Park",
+      "terms": [
+        "park",
+        "parks"
+      ],
+      "selectors": [
+        {
+          "leisure": "park"
+        }
+      ]
+    },
+    {
+      "label": "Supermarkets",
+      "singular": "Supermarket",
+      "terms": [
+        "supermarket",
+        "supermarkets",
+        "grocery store",
+        "grocery stores"
+      ],
+      "selectors": [
+        {
+          "shop": "supermarket"
+        }
+      ]
+    },
+    {
+      "label": "Hotels",
+      "singular": "Hotel",
+      "terms": [
+        "hotel",
+        "hotels"
+      ],
+      "selectors": [
+        {
+          "tourism": "hotel"
+        }
+      ]
+    },
+    {
+      "label": "Banks",
+      "singular": "Bank",
+      "terms": [
+        "bank",
+        "banks"
+      ],
+      "selectors": [
+        {
+          "amenity": "bank"
+        }
+      ]
+    },
+    {
+      "label": "Fuel stations",
+      "singular": "Fuel station",
+      "terms": [
+        "petrol pump",
+        "petrol pumps",
+        "gas station",
+        "gas stations",
+        "fuel station",
+        "fuel stations"
+      ],
+      "selectors": [
+        {
+          "amenity": "fuel"
+        }
+      ]
+    },
+    {
+      "label": "Post offices",
+      "singular": "Post office",
+      "terms": [
+        "post office",
+        "post offices"
+      ],
+      "selectors": [
+        {
+          "amenity": "post_office"
+        }
+      ]
+    },
+    {
+      "label": "Public toilets",
+      "singular": "Public toilet",
+      "terms": [
+        "toilet",
+        "toilets",
+        "public toilets",
+        "restroom",
+        "restrooms"
+      ],
+      "selectors": [
+        {
+          "amenity": "toilets"
+        }
+      ]
+    },
+    {
+      "label": "Universities",
+      "singular": "University",
+      "terms": [
+        "university",
+        "universities"
+      ],
+      "selectors": [
+        {
+          "amenity": "university"
+        }
+      ]
+    },
+    {
+      "label": "Shopping malls",
+      "singular": "Mall",
+      "terms": [
+        "mall",
+        "shopping mall",
+        "shopping malls"
+      ],
+      "selectors": [
+        {
+          "shop": "mall"
+        }
+      ]
+    },
+    {
+      "label": "Parking areas",
+      "singular": "Parking",
+      "terms": [
+        "parking",
+        "car park",
+        "car parking"
+      ],
+      "selectors": [
+        {
+          "amenity": "parking"
+        }
+      ]
+    }
+  ]
+}
